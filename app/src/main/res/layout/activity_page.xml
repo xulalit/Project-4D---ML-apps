@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    //Header layout
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/icon_logo"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/camera"
+                android:src="@drawable/instagram"
+                android:layout_alignParentRight="true"
+                android:padding="4dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+</RelativeLayout>
